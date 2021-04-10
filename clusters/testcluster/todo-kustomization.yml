@@ -5,7 +5,7 @@ metadata:
   name: todo
   namespace: flux-system
 spec:
-  interval: 52m31s
+  interval: 2m1s
   path: ./kube/manifests/todo
   prune: true
   sourceRef:
