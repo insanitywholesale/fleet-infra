@@ -12,6 +12,7 @@ spec:
         kind: HelmRepository
         name: democratic-csi
   interval: 10m0s
+  createNamespace: true
   targetNamespace: democratic-csi
   values:
     csiDriver:
@@ -51,7 +52,7 @@ spec:
           detachedSnapshotsDatasetParentName: tank-z1/k8s/nfs/snaps
     storageClasses:
     - allowVolumeExpansion: true
-      defaultClass: false
+      defaultClass: true
       mountOptions:
       - noatime
       - nfsvers=4
