@@ -12,7 +12,6 @@ spec:
         kind: HelmRepository
         name: democratic-csi
   interval: 10m0s
-  createNamespace: true
   targetNamespace: democratic-csi
   values:
     csiDriver:
