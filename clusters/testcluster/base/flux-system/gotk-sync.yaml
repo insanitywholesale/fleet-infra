@@ -7,7 +7,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: newlayout
   secretRef:
     name: flux-system
   url: ssh://git@github.com/insanitywholesale/fleet-infra
@@ -19,7 +19,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./clusters/testcluster
+  path: ./clusters/testcluster/base
   prune: true
   sourceRef:
     kind: GitRepository
