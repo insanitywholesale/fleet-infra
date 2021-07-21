@@ -6,8 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-  - name: apps
-  interval: 5m11s
+  - name: core
+  interval: 5m0s
   path: ./clusters/testcluster/appiolini
   prune: false
   sourceRef:

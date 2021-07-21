@@ -5,9 +5,7 @@ metadata:
   name: core
   namespace: flux-system
 spec:
-  dependsOn:
-  - name: core
-  interval: 5m11s
+  interval: 5m0s
   path: ./clusters/testcluster/core
   prune: false
   sourceRef:
