@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 2m0s
-  path: ./kube/manifests/storageclass
+  path: ./kube/manifests/storageclasses
   prune: false
   sourceRef:
     kind: GitRepository
