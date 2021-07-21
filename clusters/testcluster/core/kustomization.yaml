@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - helmrepos
   - storage
+  - infra-source.yml
