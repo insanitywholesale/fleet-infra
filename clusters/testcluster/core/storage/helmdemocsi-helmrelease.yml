@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: democratic-csi
   interval: 10m0s
-  targetNamespace: democratic-csi
+  targetNamespace: flux-system
   values:
     csiDriver:
       name: org.democratic-csi.nfs
