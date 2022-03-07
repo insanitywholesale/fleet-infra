@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - infra-source.yml
   - nfs-subdir-source.yml
+  - nfs-subdir-chart.yml
