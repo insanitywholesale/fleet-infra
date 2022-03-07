@@ -14,6 +14,8 @@ spec:
   interval: 3m0s
   values:
     nfs:
+      mountOptions:
+      - nfsvers=4
       path: /mnt/tank-z1/k8nfs/clusty
       reclaimPolicy: Retain
       server: 192.168.19.97
