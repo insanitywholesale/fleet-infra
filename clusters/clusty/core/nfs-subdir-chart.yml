@@ -17,13 +17,6 @@ spec:
       path: /mnt/tank-z1/k8nfs/clusty
       reclaimPolicy: Retain
       server: 192.168.19.97
-    podSecurityPolicy:
-      enabled: false
-    rbac:
-      create: true
-    serviceAccount:
-      create: true
-      name: clusty-nfs-subdir-sa
     storageClass:
       accessModes: ReadWriteOnce
       allowVolumeExpansion: true
