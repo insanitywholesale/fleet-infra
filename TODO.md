@@ -1,3 +1,5 @@
 # Next steps
-
-idk fam
+Make better:
+- reliable nfs
+- kube-vip and/or metallb
+- cilium
