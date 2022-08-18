@@ -1,5 +1,5 @@
 nfs:
-  server: 192.168.19.97
+  server: 10.0.40.2
   path: "/mnt/tank-z1/k8nfs/clusty"
   reclaimPolicy: Retain
   mountOptions:
@@ -8,7 +8,7 @@ nfs:
 
 storageClass:
   create: true
-  provisionerName: "nfs-subdir-provis"
+  provisionerName: "nfs-subdir-prov"
   defaultClass: true
   allowVolumeExpansion: true
   reclaimPolicy: Retain

@@ -8,6 +8,7 @@ spec:
   chart:
     spec:
       chart: nfs-subdir-external-provisioner
+      reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
         name: nfs-subdir-external-provisioner
@@ -18,12 +19,12 @@ spec:
       - nfsvers=4
       path: /mnt/tank-z1/k8nfs/clusty
       reclaimPolicy: Retain
-      server: 192.168.19.97
+      server: 10.0.40.2
     storageClass:
       accessModes: ReadWriteOnce
       allowVolumeExpansion: true
       create: true
       defaultClass: true
-      provisionerName: nfs-subdir-provis
+      provisionerName: nfs-subdir-prov
       reclaimPolicy: Retain
 
