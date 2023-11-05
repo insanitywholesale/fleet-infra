@@ -4,5 +4,4 @@ kind: Kustomization
 resources:
 - todo
 - podinfo
-- drone
 - gifinator
